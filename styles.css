@@ -55,10 +55,7 @@ h5{
 
 /* =========== NAVBAR ==========*/
 
-.line{
-    color: gray;
-    font-size: 1px;
-}
+
 
 .nav-item{
     color: #fff;
@@ -69,12 +66,11 @@ h5{
     
 }
 
-.nav-link:hover{
-    border-bottom: 3px solid #fff;
-    padding-bottom: 5px;
-    background: linear-gradient(to top, rgb(208, 214, 249), 0%, rgb(208, 214, 249), 10%, transparent, 10.01%) no-repeat left bottom;
-}
 
+
+.nav-item:hover{
+    border-bottom: 3px solid #fff;
+}
 
 
 .navbar-nav:hover {
