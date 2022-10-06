@@ -48,6 +48,10 @@ h5{
     
 }
 
+.number{
+    color: grey;
+}
+
 /* =========== NAVBAR ==========*/
 
 .line{
@@ -90,10 +94,10 @@ filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 
 
 
-/* =========== DESKTOP HOME ==========*/
+/* ===========  HOME PAGE ==========*/
 
 .homepage_body{
-    background-image: url(/space-tourism-website-main/starter-code/assets/home/background-home-desktop.jpg);
+    background-image: url(assets/home/background-home-desktop.jpg);
     background-size: cover;
     color: #fff;
 }
@@ -137,3 +141,10 @@ filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
    text-align: center;
     
 }
+
+/* ================ DESTINATION PAGE ================ */
+
+.homepage_destination{
+    background-image: url(assets/destination/background-destination-desktop.jpg);
+}
+
