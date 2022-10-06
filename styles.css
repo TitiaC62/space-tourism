@@ -67,7 +67,6 @@ h5{
 }
 
 
-
 .nav-item:hover{
     border-bottom: 3px solid #fff;
 }
@@ -107,15 +106,17 @@ filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     width: 450px;
     height: 382px;
     left: 165px;
-    top: 387px;
+    top: 307px;
 }
+
+
 
 .homepage_circle{
     position: absolute;
     width: 274px;
     height: 274px;
-    left: 1001px;
-    top: 495px;
+    left: 920px;
+    top: 390px;
     background-color: #fff;
     border-radius: 50%;
     padding: 10px;
@@ -124,24 +125,48 @@ filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     font-size: 32px;
     text-transform: uppercase;
     border: none;
-    z-index: 1;
-    
-}
-
-.homepage_circle:hover{
    
-    width: 450px;
-    height: 450px;
-    left: 913px;
-    top: 407px;
-    background-color:rgba(240, 240, 240, 0.1);
-    border: none;
-}
-
-.homepage_explore{
-   text-align: center;
     
+} 
+
+
+#bloc {
+    display: flex;
+    position: relative;
 }
+  
+  #rond {
+    position: absolute;
+    border-radius: 50%;
+    background-color: white;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #arriereplan {
+    position: absolute;
+   
+    opacity: 0.3;
+    border-radius: 50%;
+    background-color: white;
+    z-index: -1;
+   width: 400px;
+    height: 400px;
+    left: 855px;
+    top: 325px;
+  }
+  
+  .active {
+    display: block;
+  }
+  
+  .noactive {
+    display: none;
+  }
+
+
 
 /* ================ DESTINATION PAGE ================ */
 
