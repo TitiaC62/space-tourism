@@ -343,11 +343,99 @@ top: 210px;
 }
 
 .list-crew{
-    display: block;
-    float: left;
+    display: flex;
+    justify-content: space-around;
     position: absolute;
 width: 132px;
 height: 15px;
 left: 167px;
 top: 700px;
+}
+
+
+
+/* ================ TECHONOLOGY PAGE ================ */
+
+.background-technology{
+    background: url(assets/technology/background-technology-desktop.jpg);
+    color: #fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img-tech{
+    position: absolute;
+width: 515px;
+height: 527px;
+left: 925px;
+top: 272px;
+}
+
+.title-tech{
+    font-family: 'Bellefair';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 64px;
+    text-transform: uppercase;
+}
+
+.container-tech{
+    position: absolute;
+width: 470px;
+height: 303px;
+left: 325px;
+top: 383px;
+}
+
+.vehicle{
+    position: absolute;
+width: 80px;
+height: 80px;
+left: 165px;
+top: 383px;
+}
+
+.spaceport{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: 165px;
+    top: 495px;
+
+}
+
+.capsule{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: 165px;
+    top: 607px;  
+
+}
+
+.vehicle, .capsule, .spaceport{
+    border: #fff 1px solid;
+    border-radius: 50%;
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Bellefair';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 37px;
+letter-spacing: 2px;
+}
+
+.vehicle:hover, 
+.capsule:hover, 
+.spaceport:hover{
+    border: #000000 1px solid;
+    border-radius: 50%;
+    background-color: #fff;
+    color: #000000;
+    cursor: pointer;
 }
