@@ -47,10 +47,24 @@ h5{
     letter-spacing: 4.75px;
     text-transform: uppercase;
     
+    
 }
 
 .number{
     color: grey;
+}
+
+.text{
+    color: #D0D6F9;
+    padding: 20px 0px;
+    font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 32px;
+    }
+
+.color{
+    color: #D0D6F9;
 }
 
 /* =========== NAVBAR ==========*/
@@ -71,11 +85,15 @@ h5{
     border-bottom: 3px solid #fff;
 }
 
-
-.navbar-nav:hover {
-    background: rgba(255, 255, 255, 0.04);
+.navbar-nav{
+    
+background: rgba(255, 255, 255, 0.04);
 backdrop-filter: blur(40.7742px);
+
 }
+
+
+
 
 .spacenavbar{
  position: absolute;
@@ -168,7 +186,7 @@ filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 
 
 
-/* ================ DESTINATION PAGE ================ */
+/* ================ DESTINATION  MOON PAGE ================ */
 
 .homepage_destination{
     background-image: url(assets/destination/background-destination-desktop.jpg);
@@ -184,6 +202,11 @@ top: 212px;
 
 border: 1px solid #000000;
 
+}
+
+.planet{
+    text-decoration: none;
+    color: #D0D6F9;
 }
 
 .img-moon{
@@ -203,15 +226,49 @@ top: 310px;
 
 }
 
-.nav_planet{
-    font-family: 'Barlow Condensed', sans-serif;
-    font-size: 16px;
-    letter-spacing: 2.7px;
-    text-transform: uppercase;
-    position: absolute;
-left: 0%;
-right: 35.84%;
-top: 0%;
-bottom: 92.8%;
 
+.container-planet{
+    font-family: 'Barlow Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 2.7px;
+    display: flex;
+    
 }
+
+.planet{
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.container-distance{
+    display: flex;
+    justify-content: space-around;
+}
+
+.title-distance{
+    font-family:  'Barlow Condensed', sans-serif;
+    font-size: 14px;
+    letter-spacing: 2.35px;
+    text-transform: uppercase;
+    color: #D0D6F9;
+    padding-bottom: 5px;
+    
+}
+
+.number-distance{
+    font-family: 'Bellefair'; 
+    font-size: 28px;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    
+    
+} 
+
+/* ================   DESTINATION MARS PAGE ================ */
+
