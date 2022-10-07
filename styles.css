@@ -209,6 +209,10 @@ border: 1px solid #000000;
     color: #D0D6F9;
 }
 
+.planet:hover{
+    color: #fff;
+}
+
 .img-moon{
     position: absolute;
 width: 445px;
