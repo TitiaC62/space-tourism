@@ -1,3 +1,5 @@
+// ROND EXPLORE
+
 let rond = document.getElementById("rond");
 let rondtransparent = document.getElementById("arriereplan");
 
@@ -15,4 +17,6 @@ function cacheRond() {
   rondtransparent.classList.add("noactive");
 }
 
-console.log("hello");
+// PAGINATION DOTS
+
+let page
